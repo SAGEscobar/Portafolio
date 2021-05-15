@@ -102,6 +102,36 @@ i{
     background-size: contain;
 }
 
+.StyledComponents {
+    height: 2.6rem;
+    width: 2.6rem;
+    background-image: url('./styled-components.svg');
+    background-size: contain;
+}
+
+.graphql {
+    height: 2.6rem;
+    width: 2.6rem;
+    background-image: url('./graphql-icon.svg');
+    background-size: contain;
+}
+
+.React::before {
+    font-family:"Font Awesome 5 Brands";
+    content: '\f41b';
+    color: #00758f;
+    font-size: 2.6rem;
+    font-weight:900
+}
+
+.Node::before {
+    font-family:"Font Awesome 5 Brands";
+    content: '\f3d3';
+    color: #68a063 ;
+    font-size: 2.6rem;
+    font-weight:900
+}
+
 .fa-react{
     color: #61dbfb;
     font-size: 2.6rem;

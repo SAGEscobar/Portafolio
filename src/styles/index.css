@@ -139,6 +139,7 @@ p{
     height: 20rem;
     border-radius: 50%;
     float: left;
+    object-fit: cover;
 }
 
 .boton{
